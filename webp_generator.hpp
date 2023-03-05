@@ -9,7 +9,7 @@
 #include <animatedwebp_export.h>
 
 
-class WebPGenerator
+class ANIMATEDWEBP_EXPORT WebPGenerator
 {
     public:
         /**
