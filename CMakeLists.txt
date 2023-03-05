@@ -32,6 +32,8 @@ target_link_libraries(AnimatedWebP
 target_include_directories(AnimatedWebP
     PUBLIC
         ${CMAKE_CURRENT_BINARY_DIR}
+    INTERFACE
+        ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
 generate_export_header(AnimatedWebP)
