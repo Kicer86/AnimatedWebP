@@ -12,10 +12,33 @@
 class WebPGenerator
 {
     public:
+        /**
+         * @brief Append frame.
+         */
         WebPGenerator& append(const QImage &);
+
+        /**
+         * @brief Set delay between changing frames.
+         *
+         * Defines how long each frame will be shown during animation.
+         */
         WebPGenerator& setDelay(const std::chrono::milliseconds &);
+
+        /**
+         * @brief Set delay before starting animation again.
+         *
+         * Set 0 for no delay
+         */
         WebPGenerator& setLoopDelay(const std::chrono::milliseconds &);
+
+        /**
+         * @brief Use lossless compression.
+         */
         WebPGenerator& setLossless();
+
+        /**
+         * @brief Generate file content.
+         */
         QByteArray save();
 
     private:
