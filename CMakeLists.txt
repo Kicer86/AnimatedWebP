@@ -9,7 +9,7 @@ endif()
 find_package(WebP CONFIG QUIET)
 
 if(WebP_FOUND)
-    set(WEBP_LIBRARIES ${WebP_LIBRARIES})
+    set(WEBP_LIBRARIES WebP::libwebpmux)
 else()
     find_package(PkgConfig REQUIRED)
 
