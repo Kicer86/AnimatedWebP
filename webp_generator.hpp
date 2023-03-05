@@ -6,6 +6,8 @@
 #include <QByteArray>
 #include <QImage>
 
+#include <animatedwebp_export.h>
+
 
 class WebPGenerator
 {
