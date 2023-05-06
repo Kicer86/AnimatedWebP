@@ -3,6 +3,7 @@
 #define WEBP_GENERATOR_HPP_INCLUDED
 
 #include <chrono>
+#include <vector>
 #include <QByteArray>
 #include <QImage>
 
