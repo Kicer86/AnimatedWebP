@@ -37,3 +37,5 @@ target_include_directories(AnimatedWebP
 )
 
 generate_export_header(AnimatedWebP)
+
+install(TARGETS AnimatedWebP)
